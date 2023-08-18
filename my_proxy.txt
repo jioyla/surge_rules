@@ -2,3 +2,4 @@
 .notion.so
 .obsidian.md
 .mitsea.com
+.codeium.com
