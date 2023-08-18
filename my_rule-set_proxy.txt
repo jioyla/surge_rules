@@ -1,3 +1,2 @@
 PROCESS-NAME,curl
-PROCESS-NAME,git-remote-http 
-PROCESS-NAME,BlockBlock Helper 
+PROCESS-NAME,git-remote-http
