@@ -5,3 +5,4 @@
 .codeium.com
 .objective-see.com
 .sentry.io
+.mipic.cc
