@@ -3,3 +3,5 @@
 .obsidian.md
 .mitsea.com
 .codeium.com
+.objective-see.com
+.sentry.io
