@@ -1,1 +1,3 @@
 DOMAIN-SUFFIX,nextdns.io
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,obsidian.md
