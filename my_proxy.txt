@@ -8,4 +8,6 @@
 .mipic.cc
 .github.io
 .codeium.com
-# unleash.codeium.com
+.googleapis.com
+
+
