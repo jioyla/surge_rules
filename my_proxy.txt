@@ -8,4 +8,5 @@ sentry.io
 mipic.cc
 deepl.com
 github.io
-codeium.com
+.codeium.com
+# unleash.codeium.com
