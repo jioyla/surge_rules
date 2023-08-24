@@ -12,3 +12,4 @@
 .vpnsoso.com
 .raycast.com
 .gstatic.com
+.vivaldi.net
