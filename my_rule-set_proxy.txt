@@ -1,2 +1,4 @@
 PROCESS-NAME,curl
 PROCESS-NAME,git-remote-http
+# Telgram
+IP-CIDR,5.28.195.0/22,no-resolve
