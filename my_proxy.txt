@@ -1,11 +1,11 @@
-nextdns.io
-notion.so
-obsidian.md
-mitsea.com
-codeium.com
-objective-see.com
-sentry.io
-mipic.cc
-github.io
+.nextdns.io
+.notion.so
+.obsidian.md
+.mitsea.com
+.codeium.com
+.objective-see.com
+.sentry.io
+.mipic.cc
+.github.io
 .codeium.com
 # unleash.codeium.com
