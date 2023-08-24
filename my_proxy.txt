@@ -9,5 +9,5 @@
 .github.io
 .codeium.com
 .googleapis.com
-
+.vpnsoso.com
 
