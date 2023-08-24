@@ -13,3 +13,4 @@
 .raycast.com
 .gstatic.com
 .vivaldi.net
+.local.adguard.org
