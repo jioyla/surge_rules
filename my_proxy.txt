@@ -11,3 +11,4 @@
 .googleapis.com
 .vpnsoso.com
 .raycast.com
+.gstatic.com
