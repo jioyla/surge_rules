@@ -10,4 +10,4 @@
 .codeium.com
 .googleapis.com
 .vpnsoso.com
-
+.raycast.com
