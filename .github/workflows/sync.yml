@@ -25,9 +25,9 @@ jobs:
         run: |
           git config --global user.name "jioyla"
           git config --global user.email "lz4261@gmail.com"
-          git stash
-          git pull origin main
-          git stash apply
+          # git stash
+          # git pull origin main
+          # git stash apply
           git add cncidr.txt
           git commit -m "Sync cncidr.txt"
           git push
