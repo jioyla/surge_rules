@@ -23,9 +23,9 @@ jobs:
           
       - uses: actions/checkout@v3
       - uses: fregante/setup-git-user@v2
-      - run: git stash
+      # - run: git stash
       - run: git pull origin main
-      - run: git stash apply
+      # - run: git stash apply
       - run: git add cncidr.txt
       - run: git commit --message 'Sync cncidr.txt'
       - run: git push
