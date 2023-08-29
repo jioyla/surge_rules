@@ -21,11 +21,13 @@ jobs:
         run: |
           sed -i 's/$/.no-resolve/' cncidr.txt
           
-      - uses: actions/checkout@v3
-      - uses: fregante/setup-git-user@v2
-      # - run: git stash
-      - run: git pull origin main
-      # - run: git stash apply
-      - run: git add .
-      - run: git commit --message 'Sync cncidr.txt'
-      - run: git push
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "jioyla"
+          git config --global user.email "lz4261@gmail.com"
+          git stash
+          git pull origin main
+          git stash apply
+          git add cncidr.txt
+          git commit -m "Sync cncidr.txt"
+          git push
