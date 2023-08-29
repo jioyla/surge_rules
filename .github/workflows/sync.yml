@@ -12,9 +12,6 @@ jobs:
     steps:
       - name: Checkout source repository
         uses: actions/checkout@v2
-        with:
-          repository: jioyla/surge-rules
-          ref: main
 
       - name: Download cncidr.txt
         run: |
