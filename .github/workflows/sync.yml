@@ -2,7 +2,7 @@ name: Sync cncidr.txt
 
 on:
   schedule:
-    - cron: '0 7 * * *' # 每小时检测一次
+    - cron: '0 7 * * *' # 每天早上7点更新
   workflow_dispatch:
 
 jobs:
