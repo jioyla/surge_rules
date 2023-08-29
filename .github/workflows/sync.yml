@@ -13,8 +13,8 @@ jobs:
       - name: Checkout source repository
         uses: actions/checkout@v2
         with:
-          repository: Loyalsoldier/surge-rules
-          ref: release
+          repository: jioyla/surge-rules
+          ref: main
 
       - name: Download cncidr.txt
         run: |
@@ -22,7 +22,7 @@ jobs:
 
       - name: Sync cncidr.txt
         run: |
-          echo ".no-resolve" >> cncidr.txt
+          sed -i 's/$/.no-resolve/' cncidr.txt
           
       - name: Commit and push changes
         run: |
