@@ -16,4 +16,7 @@ PROCESS-NAME,NetTransport
 PROCESS-NAME,uTorrent
 PROCESS-NAME,WebTorrent
 DOMAIN-KEYWORD,.cn
+DOMAIN-SUFFIX,go2https.com
+DOMAIN-SUFFIX,gszyi.com
+DOMAIN-SUFFIX,meiju996.com
  
