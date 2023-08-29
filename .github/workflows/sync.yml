@@ -13,8 +13,8 @@ jobs:
       - name: Checkout source repository
         uses: actions/checkout@v2
         with:
-          repository: Loyalsoldier/surge-rules
-          # path: source-repo
+          repository: surge-rules
+          path: Loyalsoldier
 
       - name: Sync cncidr.txt
         run: |
