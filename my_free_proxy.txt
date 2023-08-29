@@ -11,3 +11,10 @@ go-travels.com
 paper.photos
 dioco.io
 hk01.com
+avoscloud.com
+dioco.io
+avira-update.com
+adguard-dns.io
+twilio.com
+adguard.org
+nssurge.com
