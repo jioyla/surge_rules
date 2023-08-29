@@ -14,11 +14,11 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: Loyalsoldier/surge-rules
-          head: release
+          branches: release
 
       - name: Sync cncidr.txt
         run: |
-          cp Loyalsoldier/surge-rules/cncidr.txt cncidr.txt
+          cp “**/cncidr.txt” cncidr.txt
           echo ".no-resolve" >> cncidr.txt
 
       - name: Commit and push changes
