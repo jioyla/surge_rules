@@ -16,11 +16,15 @@ jobs:
           repository: Loyalsoldier/surge-rules
           ref: release
 
+      - name: Download cncidr.txt
+        run: |
+          curl -O -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/cncidr.txt
+
       - name: Sync cncidr.txt
         run: |
-          cp surge-rules/cncidr.txt cncidr.txt
+          cp cncidr.txt /cncidr.txt
           echo ".no-resolve" >> cncidr.txt
-
+          
       - name: Commit and push changes
         run: |
           git config --global user.name "jioyla"
