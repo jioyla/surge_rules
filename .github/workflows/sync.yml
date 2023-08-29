@@ -1,0 +1,29 @@
+name: Sync cncidr.txt
+
+on:
+  schedule:
+    - cron: '0 * * * *' # 每小时检测一次
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v2
+        with:
+          repository: surge-rules
+          path: Loyalsoldier/surge-rules
+
+      - name: Sync cncidr.txt
+        run: |
+          cp Loyalsoldier/surge-rules/cncidr.txt cncidr.txt
+          echo ".no-resolve" >> cncidr.txt
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "jioyla"
+          git config --global user.email "lz4261@gmail.com"
+          git add cncidr.txt
+          git commit -m "Sync cncidr.txt"
+          git push
