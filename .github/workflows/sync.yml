@@ -26,6 +26,6 @@ jobs:
       # - run: git stash
       - run: git pull origin main
       # - run: git stash apply
-      - run: git add cncidr.txt
+      - run: git add .
       - run: git commit --message 'Sync cncidr.txt'
       - run: git push
