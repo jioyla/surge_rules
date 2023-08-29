@@ -15,11 +15,10 @@ jobs:
         with:
           repository: Loyalsoldier/surge-rules
           ref: release
-          #path: /Loyalsoldier
 
       - name: Sync cncidr.txt
         run: |
-           cp Loyalsoldier/surge-rules/cncidr.txt cncidr.txt
+          cp Loyalsoldier/surge-rules/cncidr.txt cncidr.txt
           echo ".no-resolve" >> cncidr.txt
 
       - name: Commit and push changes
