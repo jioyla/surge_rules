@@ -23,8 +23,9 @@ jobs:
           
       - name: Commit and push changes
         run: |
-          git config --global user.name "jioyla"
-          git config --global user.email "lz4261@gmail.com"
+          # git config --global user.name "jioyla"
+          # git config --global user.email "lz4261@gmail.com"
+          uses: fregante/setup-git-user@v2
           git stash
           git pull origin main
           git stash apply
