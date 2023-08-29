@@ -1,4 +1,6 @@
 PROCESS-NAME,curl
 PROCESS-NAME,git-remote-http
+PROCESS-NAME,SunBrowser Helper
+PROCESS-NAME,AdsPower Global Helper
 # Telgram
 IP-CIDR,5.28.195.0/22,no-resolve
