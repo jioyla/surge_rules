@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: Loyalsoldier/surge-rules
-          branches: release
+          ref: release
 
       - name: Sync cncidr.txt
         run: |
