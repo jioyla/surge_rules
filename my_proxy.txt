@@ -13,7 +13,7 @@
 .raycast.com
 .gstatic.com
 .vivaldi.net
-.local.adguard.org
+# .local.adguard.org
 .bfzycdn.com
 .dnslytics.com
 .killcovid2021.com
