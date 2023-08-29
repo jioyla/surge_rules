@@ -22,7 +22,6 @@ jobs:
 
       - name: Sync cncidr.txt
         run: |
-          cp cncidr.txt /cncidr.txt
           echo ".no-resolve" >> cncidr.txt
           
       - name: Commit and push changes
