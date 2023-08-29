@@ -3,6 +3,7 @@ name: Sync cncidr.txt
 on:
   schedule:
     - cron: '0 * * * *' # 每小时检测一次
+  workflow_dispatch:
 
 jobs:
   sync:
