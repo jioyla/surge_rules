@@ -24,9 +24,8 @@ jobs:
       - name: Sync cncidr.txt
         run: |
           sed -i 's/$/,no-resolve/' cncidr.txt
-          
+    
       - name: Commit and push changes
-      - uses: actions/checkout@v3
       - uses: fregante/setup-git-user@v2
       - run: |
           git init
