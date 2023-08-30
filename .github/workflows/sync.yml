@@ -28,4 +28,4 @@ jobs:
           git config --global user.email "lz4261@gmail.com"
           git add .
           git commit -m "update cncidr.txt"
-          git push -f https://github.com/jioyla/surge_rules.git main:main
+          git push -f https://github.com/jioyla/surge_rules.git
