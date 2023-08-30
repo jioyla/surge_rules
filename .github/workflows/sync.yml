@@ -13,9 +13,9 @@ jobs:
       - name: Checkout source repository
         uses: actions/checkout@v2
 
-      - name: Checkout source repository
+      - name: del local cncidr.txt
         run: |
-          rm -rf cncidr.txt
+          rm -rf cncidr.txt || exit 1
 
       - name: Download cncidr.txt
         run: |
