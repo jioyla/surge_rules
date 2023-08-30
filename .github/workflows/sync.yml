@@ -13,6 +13,10 @@ jobs:
       - name: Checkout source repository
         uses: actions/checkout@v2
 
+      - name: Checkout source repository
+        run: |
+          rm -rf cncidr.txt
+
       - name: Download cncidr.txt
         run: |
           curl -O -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/cncidr.txt
@@ -26,6 +30,8 @@ jobs:
           git init
           git config --global user.name "jioyla"
           git config --global user.email "lz4261@gmail.com"
+          git checkout -b release
           git add .
           git commit -m "update cncidr.txt"
-          git push -f https://github.com/jioyla/surge_rules.git
+          git remote add origin https://github.com/jioyla/surge_rules.git
+          git push -f -u origin release
