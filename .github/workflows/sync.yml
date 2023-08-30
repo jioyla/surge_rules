@@ -2,7 +2,7 @@ name: Sync cncidr.txt
 
 on:
   schedule:
-    - cron: '0 7 * * *' 
+    - cron: '*/5 * * * *' 
   workflow_dispatch:
 
 jobs:
@@ -26,12 +26,11 @@ jobs:
           sed -i 's/$/,no-resolve/' cncidr.txt
           
       - name: Commit and push changes
-        run: |
+      - uses: actions/checkout@v3
+      - uses: fregante/setup-git-user@v2
+      - run: |
           git init
-          git config --global user.name "jioyla"
-          git config --global user.email "lz4261@gmail.com"
           git checkout -b release
           git add .
           git commit -m "update cncidr.txt"
           git push -f -u origin release
-
