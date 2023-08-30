@@ -29,5 +29,5 @@ jobs:
           git checkout -b release
           git add .
           git commit -m "update cncidr.txt"
-          git remote add origin "https://github.com/jioyla/surge_rules.git"
+          git remote add origin https://github.com/jioyla/surge_rules.git
           git push -f -u origin release
