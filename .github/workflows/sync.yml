@@ -3,7 +3,7 @@ name: Sync cncidr.txt
 on:
   schedule:
     - cron: '5 * * * *' # 每天早上7点更新
-  workflow_dispatch:
+  # workflow_dispatch:
 
 jobs:
   sync:
