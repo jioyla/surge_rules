@@ -59,4 +59,6 @@ DOMAIN-KEYWORD,.cn
 DOMAIN-SUFFIX,go2https.com
 DOMAIN-SUFFIX,gszyi.com
 DOMAIN-SUFFIX,meiju996.com
+# 免费代理
+DOMAIN-KEYWORD,.xyz
  
