@@ -1,2 +1,3 @@
 # 参考
-- https://github.com/blackmatrix7/ios_rule_script
+- [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules/tree/master) 
+- [github.com/blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) 
