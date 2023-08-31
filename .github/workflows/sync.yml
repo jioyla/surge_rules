@@ -2,7 +2,7 @@ name: Sync cncidr.txt
 
 on:
   schedule:
-    - cron: '0 7 * * *' 
+    - cron: '0 23 * * *' # 这里是UTC时区，+8 才是中国时间
   workflow_dispatch:
 
 jobs:
