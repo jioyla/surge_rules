@@ -55,10 +55,12 @@ PROCESS-NAME,uTorrent
 PROCESS-NAME,WebTorrent
 
 # 其它域名
-DOMAIN-KEYWORD,.cn
+DOMAIN-SUFFIX,.cn
+DOMAIN-SUFFIX,.cn1lib.is
 DOMAIN-SUFFIX,go2https.com
 DOMAIN-SUFFIX,gszyi.com
 DOMAIN-SUFFIX,meiju996.com
+
 # 免费代理
 DOMAIN-KEYWORD,.xyz
  
