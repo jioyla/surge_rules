@@ -35,3 +35,4 @@
 .adguard.org
 .nssurge.com
 .skk.moe
+.cn1lib.is
