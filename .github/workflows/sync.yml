@@ -1,0 +1,35 @@
+name: Sync cncidr.txt
+
+on:
+  schedule:
+    - cron: '0 23 * * *' # 这里是UTC时区，+8 才是中国时间
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v2
+
+      - name: del local cncidr.txt
+        run: |
+          rm -rf cncidr.txt || exit 1
+
+      - name: Download cncidr.txt
+        run: |
+          curl -O -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/cncidr.txt
+
+      - name: Sync cncidr.txt
+        run: |
+          sed -i 's/$/,no-resolve/' cncidr.txt
+    
+      - name: Commit and push changes
+        uses: fregante/setup-git-user@v2
+      - run: |
+          git init
+          git checkout -b release
+          git add cncidr.txt
+          git commit -m "update cncidr.txt"
+          git push -f -u origin release
