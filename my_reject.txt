@@ -1,1 +1,2 @@
 .loc.map.baidu.com
+.soydemac.com
