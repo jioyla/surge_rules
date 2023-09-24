@@ -60,7 +60,7 @@ DOMAIN-SUFFIX,.gszyi.com
 DOMAIN-SUFFIX,.meiju996.com
 DOMAIN,api.serhiy.io
 DOMAIN-SUFFIX,.bfzycdn.com
-DOMAIN-SUFFIX,.cn
+DOMAIN-SUFFIX,.cn:443
 
 # 免费代理
 DOMAIN-KEYWORD,.xyz
