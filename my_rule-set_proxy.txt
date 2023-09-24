@@ -1,4 +1,3 @@
-# PROCESS-NAME,curl
 PROCESS-NAME,git-remote-http
 PROCESS-NAME,SunBrowser Helper
 PROCESS-NAME,AdsPower Global Helper
