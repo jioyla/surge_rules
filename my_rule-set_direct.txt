@@ -58,6 +58,9 @@ PROCESS-NAME,WebTorrent
 DOMAIN-SUFFIX,.go2https.com
 DOMAIN-SUFFIX,.gszyi.com
 DOMAIN-SUFFIX,.meiju996.com
+DOMAIN,api.serhiy.io
+DOMAIN-SUFFIX,.bfzycdn.com
+DOMAIN-SUFFIX,.edu.cn
 
 # 免费代理
 DOMAIN-KEYWORD,.xyz
