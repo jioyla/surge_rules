@@ -36,3 +36,14 @@
 .nssurge.com
 .skk.moe
 .cn1lib.is
+.gitbook.io
+.netflixdog.club
+.wezfurlong.org
+.cn1lib.is
+.proton.me
+.worldtimeapi.org
+.ip-api.com
+.avira.com
+.privacyguides.org
+.ziyuandaili.com
+.meiju996.com
