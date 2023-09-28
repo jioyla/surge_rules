@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '0 23 * * *' # 这里是UTC时区，+8 才是中国时间
   workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - ".gitignore"
+      - "README.md"
 
 jobs:
   sync:
