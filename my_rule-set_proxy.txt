@@ -18,14 +18,15 @@ IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2a0a:f280::/32,no-resolve
 
 # 海外DNS
-IP-CIDR,8.8.4.4/32
-IP-CIDR,8.8.8.8/32
-IP-CIDR,9.9.9.9/32
-IP-CIDR,23.89.5.60/32
-IP-CIDR,77.88.8.8/32
-IP-CIDR,94.140.14.14/32
-IP-CIDR,208.67.220.220/32
-IP-CIDR,146.112.41.2/32
+IP-CIDR,8.8.4.4/32,no-resolve
+IP-CIDR,8.8.8.8/32,no-resolve
+IP-CIDR,9.9.9.9/32,no-resolve
+IP-CIDR,23.89.5.60/32,no-resolve
+IP-CIDR,45.90.28.57,no-resolve
+IP-CIDR,77.88.8.8/32,no-resolve
+IP-CIDR,94.140.14.14/32,no-resolve
+IP-CIDR,208.67.220.220/32,no-resolve
+
 
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,dns64.dns.google
