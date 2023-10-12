@@ -62,8 +62,6 @@ DOMAIN,api.serhiy.io
 DOMAIN-SUFFIX,.bfzycdn.com
 DOMAIN-SUFFIX,cn
 
-# 免费代理
-DOMAIN-KEYWORD,.xyz
 
 # 国内媒体
 DOMAIN-SUFFIX,.bilivideo.cn
