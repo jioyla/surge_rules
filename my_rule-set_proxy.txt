@@ -5,5 +5,4 @@ PROCESS-NAME,AdsPower Global Helper
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,mullvad.net
 DOMAIN-SUFFIX,dns.sb
-DOMAIN-SUFFIX,nextdns.io
 
