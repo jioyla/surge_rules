@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,.meiju996.com
 DOMAIN,api.serhiy.io
 DOMAIN-SUFFIX,.bfzycdn.com
 DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,nextdns.io
 
 
 # 国内媒体
