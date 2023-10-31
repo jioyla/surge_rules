@@ -12,7 +12,6 @@
 .raycast.com
 .gstatic.com
 .vivaldi.net
-.adguard.org
 .bfzycdn.com
 .dnslytics.com
 .killcovid2021.com
@@ -31,7 +30,6 @@
 .avira-update.com
 .adguard-dns.io
 .twilio.com
-.adguard.org
 .nssurge.com
 .skk.moe
 .cn1lib.is
