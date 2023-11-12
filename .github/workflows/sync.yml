@@ -1,4 +1,4 @@
-name: Direct Rules
+name: Merge Rules
 
 on:
   schedule:
@@ -44,5 +44,5 @@ jobs:
           git init
           git checkout -b release
           git add direct.txt cncidr.txt
-          git commit -m "Direct rules"
+          git commit -m "Merge rules"
           git push -f -u origin release
