@@ -11,10 +11,10 @@ DOMAIN-SUFFIX,nextdns.io
 # 国内媒体
 DOMAIN-SUFFIX,.bilivideo.cn
 DOMAIN-SUFFIX,time.asia.apple.com
-cz88.net
-koudaizy.com
-123pan.com
-macv.com
-36kr.com
+DOMAIN-SUFFIX,.cz88.net
+DOMAIN-SUFFIX,.koudaizy.com
+DOMAIN-SUFFIX,.123pan.com
+DOMAIN-SUFFIX,.macv.com
+DOMAIN-SUFFIX,.36kr.com
 
  
