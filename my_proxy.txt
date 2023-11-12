@@ -60,5 +60,6 @@
 .immersivetranslate.com
 .codelife.cc
 .github.io
+.nsns.in
 .whatismyipaddress.info
 .avira.net
