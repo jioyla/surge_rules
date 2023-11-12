@@ -1,3 +1,4 @@
+.appstorrent.ru
 .notion.so
 .obsidian.md
 .mitsea.com
