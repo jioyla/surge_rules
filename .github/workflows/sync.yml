@@ -5,8 +5,8 @@ on:
     - cron: '0 23 * * *' # 每天早上7点触发
   workflow_dispatch:
   push:
-  	branches:
-    	- main
+    branches:
+      - main
 
 jobs:
   merge_rules:
