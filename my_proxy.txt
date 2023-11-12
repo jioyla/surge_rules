@@ -44,3 +44,6 @@
 .privacyguides.org
 .ziyuandaili.com
 .meiju996.com
+.dns.google
+.mullvad.net
+.dns.sb
