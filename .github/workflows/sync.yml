@@ -37,6 +37,7 @@ jobs:
       - name: Sync cncidr.txt
         run: |
           sed -i 's/$/,no-resolve/' ip_cncidr.txt
+          sed -i '1d' ip_cncidr.txt
       
       - name: Commit and push changes
         uses: fregante/setup-git-user@v2
