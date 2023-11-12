@@ -32,7 +32,7 @@ jobs:
           curl -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/proxy.txt >> proxy.txt
           curl -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/tld-not-cn.txt >> proxy.txt
           curl -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/gfw.txt >> proxy.txt
-          curl -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/cncidr.txt
+          curl -O -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/cncidr.txt
 
       - name: Sync cncidr.txt
         run: |
