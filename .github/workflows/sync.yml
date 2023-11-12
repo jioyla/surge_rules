@@ -43,6 +43,6 @@ jobs:
       - run: |
           git init
           git checkout -b release
-          git add direct.txt cncidr.txt
+          git add direct.txt cncidr.txt proxy.txt
           git commit -m "Merge rules"
           git push -f -u origin release
