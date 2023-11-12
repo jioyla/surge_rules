@@ -32,8 +32,6 @@ jobs:
         uses: fregante/setup-git-user@v2
         
       - run: |
-          git init
-          git checkout -b release
           git add direct.txt
           git commit -m "Direct rules"
           git push origin release
