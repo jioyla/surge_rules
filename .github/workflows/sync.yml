@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
   	branches:
-    	- release
+    	- main
 
 jobs:
   merge_rules:
