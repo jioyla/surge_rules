@@ -38,7 +38,7 @@ jobs:
         run: |
           sed -i 's/$/,no-resolve/' ip_cncidr.txt
           sed -i '1d' ip_cncidr.txt
-          sort -u DS_irect.txt -o DS_irect.txt # 删除重复的行
+          sort -u DS_irect.txt -o DS_irect.txt 
           sort -u DS_proxy.txt -o DS_proxy.txt
           sort -u ip_cncidr.txt -o ip_cncidr.txt
           
