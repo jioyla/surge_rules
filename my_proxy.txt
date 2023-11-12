@@ -47,3 +47,17 @@
 .dns.google
 .mullvad.net
 .dns.sb
+.adtidy.org
+.skiff.com
+.anti-ad.net
+.launchdarkly.com
+.warp.dev
+.kavin.rocks,📢 Youtube
+.csdiy.wiki
+.id9.cc
+.extmanager.com
+.immersivetranslate.com
+.codelife.cc
+.github.io
+.whatismyipaddress.info
+.avira.net
