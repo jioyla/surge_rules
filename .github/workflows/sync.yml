@@ -26,12 +26,24 @@ jobs:
           curl -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/apple.txt >> direct.txt
           curl -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/icloud.txt >> direct.txt
           curl -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/google.txt >> direct.txt
+ 
+      - name: del local cncidr.txt
+        run: |
+          rm -rf cncidr.txt || exit 1
+
+      - name: Download cncidr.txt
+        run: |
+          curl -O -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/cncidr.txt
+
+      - name: Sync cncidr.txt
+        run: |
+          sed -i 's/$/,no-resolve/' cncidr.txt
       
       - name: Commit and push changes
         uses: fregante/setup-git-user@v2
       - run: |
           git init
           git checkout -b release
-          git add direct.txt
+          git add direct.txt cncidr.txt
           git commit -m "Direct rules"
           git push -f -u origin release
