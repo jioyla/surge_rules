@@ -2,11 +2,11 @@ name: Direct Rules
 
 on:
   schedule:
-    - cron: '0 23 * * *' # 这里是UTC时区，+8 才是中国时间
+    - cron: '0 23 * * *' # 每天早上7点触发
   workflow_dispatch:
   push:
-    branches:
-      - main
+  	branches:
+    	- release
 
 jobs:
   merge_rules:
@@ -15,6 +15,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Clear direct.txt
+        run: echo "" > direct.txt
 
       - name: Merge rules
         run: |
