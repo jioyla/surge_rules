@@ -1,24 +1,3 @@
-# Router managed 路由器管理域名
-DOMAIN-SUFFIX,.tplogin.cn
-
-# 下载及代理
-PROCESS-NAME,clash
-PROCESS-NAME,v2ray
-PROCESS-NAME,ss-local
-PROCESS-NAME,privoxy
-PROCESS-NAME,trojan
-PROCESS-NAME,trojan-go
-PROCESS-NAME,naive
-PROCESS-NAME,Thunder
-PROCESS-NAME,DownloadService
-PROCESS-NAME,qBittorrent
-PROCESS-NAME,Transmission
-PROCESS-NAME,fdm
-PROCESS-NAME,Folx
-PROCESS-NAME,NetTransport
-PROCESS-NAME,uTorrent
-PROCESS-NAME,WebTorrent
-
 # 其它域名
 DOMAIN-SUFFIX,.go2https.com
 DOMAIN-SUFFIX,.gszyi.com
@@ -31,5 +10,11 @@ DOMAIN-SUFFIX,nextdns.io
 
 # 国内媒体
 DOMAIN-SUFFIX,.bilivideo.cn
+DOMAIN-SUFFIX,time.asia.apple.com
+cz88.net
+koudaizy.com
+123pan.com
+macv.com
+36kr.com
 
  
