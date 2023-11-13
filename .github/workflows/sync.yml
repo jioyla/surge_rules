@@ -24,6 +24,7 @@ jobs:
 
       - name: Merge rules
         run: |
+          curl -L https://raw.githubusercontent.com/jioyla/surge_rules/main/my_rule-set_direct.txt >> DS_direct.txt
           curl -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/private.txt >> DS_direct.txt
           curl -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/direct.txt >> DS_direct.txt
           curl -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/apple.txt >> DS_direct.txt
