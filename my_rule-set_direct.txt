@@ -3,7 +3,6 @@
 .meiju996.com
 api.serhiy.io
 .bfzycdn.com
-.cn
 .nextdns.io
 .bilivideo.cn
 time.asia.apple.com
