@@ -61,5 +61,9 @@
 .codelife.cc
 .github.io
 .nsns.in
+.csdiy.wiki
+.replit.com
+.ablaze.one
+.istatmenus.app
 .whatismyipaddress.info
 .avira.net
