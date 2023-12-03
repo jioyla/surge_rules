@@ -1,7 +1,7 @@
 .go2https.com
 .gszyi.com
 .meiju996.com
-api.serhiy.io
+.serhiy.io
 .bfzycdn.com
 .nextdns.io
 .bilivideo.cn
@@ -12,6 +12,5 @@ time.asia.apple.com
 .macv.com
 .36kr.com
 .wuse.co
-.nsns.in
 .ffzy-play7.com
 .cn
