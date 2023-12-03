@@ -60,7 +60,6 @@
 .immersivetranslate.com
 .codelife.cc
 .github.io
-.nsns.in
 .csdiy.wiki
 .replit.com
 .ablaze.one
