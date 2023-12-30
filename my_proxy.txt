@@ -58,7 +58,6 @@
 .id9.cc
 .extmanager.com
 .immersivetranslate.com
-.codelife.cc
 .github.io
 .csdiy.wiki
 .replit.com
@@ -66,3 +65,18 @@
 .istatmenus.app
 .whatismyipaddress.info
 .avira.net
+.wuse.co
+.arc.net
+.bitwarden.net
+.alfred.app
+.charliemonroe.net
+.stonly.com
+.webbrowsertools.com
+.appcenter.ms
+.topnotch.app
+.whatismyipaddress.com
+.tuta.com
+.box.com
+.box.net
+.replit.com
+.washingtonpost.com
