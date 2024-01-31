@@ -1,3 +1,10 @@
+# DNS解析
+.ip6.arpa
+.in-addr.arpa
+.resolver.arpa
+.time.asia.apple.com
+
+# 其它
 .go2https.com
 .gszyi.com
 .meiju996.com
@@ -21,3 +28,7 @@ time.asia.apple.com
 .root-servers.org
 .codelife.cc
 .my-elibrary.com
+.ctyunapi.cn
+.mikecrm.com
+.ident.me
+.modevol.com
