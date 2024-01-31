@@ -78,5 +78,17 @@
 .tuta.com
 .box.com
 .box.net
+.lepton.run
+.boltai.com
+.pmthinking.com
+.lazyvim.org
+.ip2location.com
+.fastlydns.net
+.parallels.com
+.producthunt.com
+.joplinapp.org
+.bjango.com
+.oceanapi-i18n.com
+.mubert.com
 .replit.com
 .washingtonpost.com
