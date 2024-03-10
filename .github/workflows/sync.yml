@@ -21,6 +21,7 @@ jobs:
           echo "" > DS_direct.txt
           echo "" > DS_proxy.txt
           echo "" > ip_cncidr.txt
+          echo "" > reject.txt
 
       - name: Merge rules
         run: |
@@ -35,6 +36,8 @@ jobs:
           curl -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/tld-not-cn.txt >> DS_proxy.txt
           curl -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/gfw.txt >> DS_proxy.txt
           curl -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/cncidr.txt >> ip_cncidr.txt
+          curl -L https://ruleset.skk.moe/List/domainset/reject.conf >> reject.txt
+          curl -L https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/reject.txt >> reject.txt
 
       - name: Sync cncidr.txt
         run: |
@@ -43,12 +46,13 @@ jobs:
           sort -u DS_direct.txt -o DS_direct.txt 
           sort -u DS_proxy.txt -o DS_proxy.txt
           sort -u ip_cncidr.txt -o ip_cncidr.txt
+          sort -u reject.txt -o reject.txt
           
       - name: Commit and push changes
         uses: fregante/setup-git-user@v2
       - run: |
           git init
           git checkout -b release
-          git add DS_direct.txt ip_cncidr.txt DS_proxy.txt
+          git add DS_direct.txt ip_cncidr.txt DS_proxy.txt reject.txt
           git commit -m "Merge rules"
           git push -f -u origin release
