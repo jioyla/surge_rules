@@ -7,4 +7,7 @@ IP-CIDR,101.101.101.101/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
 IP-CIDR,45.90.28.249/32,no-resolve
 
+#
+whatismyip.akamai.com
+
 

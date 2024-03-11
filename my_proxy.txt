@@ -53,7 +53,7 @@
 .anti-ad.net
 .launchdarkly.com
 .warp.dev
-.kavin.rocks,📢 Youtube
+.kavin.rocks
 .csdiy.wiki
 .id9.cc
 .extmanager.com
