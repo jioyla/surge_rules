@@ -47,6 +47,7 @@ jobs:
           sort -u DS_proxy.txt -o DS_proxy.txt
           sort -u ip_cncidr.txt -o ip_cncidr.txt
           sort -u reject.txt -o reject.txt
+          curl -L https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list >> ip_cncidr.txt
           
       - name: Commit and push changes
         uses: fregante/setup-git-user@v2
