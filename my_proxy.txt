@@ -92,3 +92,16 @@
 .mubert.com
 .replit.com
 .washingtonpost.com
+.infini-cloud.net
+.manjaro.org
+.cloudflareclient.com
+.hammerspoon.org
+.duo.com
+.omnigroup.com
+.reddit.com
+.coreix.net
+.iu13.net
+.rockylinux.org
+.ctrliq.cloud
+.akamai.com
+.whatismyipaddress.com

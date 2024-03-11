@@ -3,6 +3,7 @@
 .in-addr.arpa
 .resolver.arpa
 .time.asia.apple.com
+dns11.quad9.net
 
 # 其它
 .go2https.com
@@ -12,7 +13,6 @@
 .bfzycdn.com
 .nextdns.io
 .bilivideo.cn
-time.asia.apple.com
 .cz88.net
 .koudaizy.com
 .123pan.com
@@ -32,3 +32,7 @@ time.asia.apple.com
 .mikecrm.com
 .ident.me
 .modevol.com
+.xjichang.buzz
+.sixyin.com
+.douyinpic.com
+.taco.homes
